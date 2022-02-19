@@ -1,0 +1,210 @@
+.layout {
+    scroll-behavior: smooth;
+    transition: ease all .5s;
+}
+
+.profile-section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.profile-section-left{
+    /* border: 1px solid red; */
+    width: 30%;
+    border-radius: 5px;
+    padding-right: 5px;
+    margin-left: -5px;
+}
+
+
+
+.profile-section-right{
+    /* border: 1px solid green; */
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px;
+    margin-left: -5px;
+}
+
+.profile-section-right-container{
+    padding-top: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+    transition: ease all .5s;
+}
+
+.profile-name{
+    font-size: 1.5em;
+}
+
+.profile-username{
+    font-size: 1.4em;
+    color: #8A8A8A;
+}
+
+.profile-short-description{
+    font-size: small;
+    width: 75%;
+    padding-bottom: .8em;
+}
+
+.profile-picture{
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+
+}
+
+.profile-title{
+    font-size: large;
+    padding-bottom: 1em;
+    padding-top: .5em;
+}
+
+.profile-title, .profile-name, .projects-section > h2{
+    color: #092C4C;
+}
+
+.profile-description{
+    font-size: small;
+    padding-bottom: 1.5em;
+    padding-right: 1em;
+    color: #505050;
+    width: 80%;
+    line-height: 1.5em;
+}
+
+.separator {
+    background-color: #E0E0E0;
+    height: .06em;
+}
+
+.profile-section-right-links-container{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-section-right-intro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .7em;
+}
+
+.profile-section-right-intro-container, .profile-section-right-links-container{
+    color: #505050;
+    font-size: small;
+}
+
+.profile-section-right-links > p{
+    padding-bottom: 1em;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.github-link-button{
+    border: none;
+    border-radius: 5px;
+    height: 2em;
+    width: 75%;
+    background-color: #092C4C;
+    color: white;
+    cursor: pointer;
+}
+
+.github-link-button:active {
+    transform: translateY(1px);
+}
+
+.github-link-button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.tech-stack-wrapper{
+    padding-top: .7em;
+    padding-bottom: .5em;
+}
+
+.tech-stack-container{
+    justify-content: space-around;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.tech-stack-container > img:hover{
+    transform: translateY(-5px);
+    transition: all .2s ease-in-out;
+}
+
+.tech-stack-wrapper > img{
+    padding-left: 20px;
+}
+
+.projects-section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tech-stack-container > p{
+    padding-left: 1em;    
+}
+  
+/* settings for small screens */
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .profile-section{
+        flex-wrap: wrap;
+    }
+
+    .profile-section-left, .profile-section-right{
+        width: 100%;
+    }
+
+    .profile-section-left{
+        text-align: center;
+    }
+
+    .profile-short-description{
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    .profile-section-right-intro-container{
+        flex-direction: column;
+    }
+    
+    .send-feedback-container > *{
+        display: none;
+    }
+
+    .profile-section-right-links-container{
+        flex-direction: column;
+    }
+
+    .profile-description{
+        width: 100%;
+    }
+
+    .profile-short-description{
+        padding-bottom: 1.5em;;
+    }
+
+   .github-link-button{
+        display: none;
+    }
+
+    .profile-section-right-image{
+        padding-top: 2em;
+    }
+
+    .profile-section-left{
+        padding-top: 2em;
+        background-color: #F7F7F7;
+        margin-bottom: 1em;
+        margin-top: -.3em;
+    }
+  }

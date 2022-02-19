@@ -1,0 +1,45 @@
+.project-section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card{
+    background-color: #F7F7F7;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.03);
+    padding: 1em;
+    border-radius: 10px;
+    margin: .5em;
+    width: 15em;
+}
+
+.project-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.06);
+}
+
+.project-card > img{
+    width: 100%;
+    border-radius: 10px;
+    height: 140px;
+}
+
+.project-title{
+    font-size: medium;
+    color: #092C4C;
+    padding-bottom: .5em;;
+}
+
+.project-description{
+    font-size: small;
+    line-height: 1.3em;
+    color: #505050;
+}
+
+/* settings for small screens */
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .project-card{
+        width: 100%;
+        margin-left: -5px;
+        margin-right: 0px;
+    }
+}

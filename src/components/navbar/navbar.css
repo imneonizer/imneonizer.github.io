@@ -1,0 +1,77 @@
+.navbar {
+    /* border: 1px solid red; */
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    height: 2.4em;
+    padding-left: 20px;
+    padding-top: 19px;
+
+    display: flex;
+    justify-content: space-between;
+
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.03);
+    position: relative;
+    z-index: 0;
+
+    margin-bottom: -10px;
+}
+
+.navbar-left{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    padding-left: 20px;
+}
+
+.navbar-linkedin-search{
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.navbar-right{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    padding-right: 55px;;
+}
+
+.navbar-right > img {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+/* https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element#:~:text=You%20can't%20change%20the,or%20using%20inline. */
+/* https://codepen.io/sosuke/pen/Pjoqqp */
+.navbar-button-active{
+    filter: invert(8%) sepia(60%) saturate(3646%) hue-rotate(196deg) brightness(30%) contrast(93%);
+
+}
+
+.navbar-button-inactive:hover{
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    /* small screens */
+
+    .navbar-left{
+      display: none;
+    }
+
+    .navbar{
+        justify-content: space-around;
+    }
+
+    .navbar-right > img{
+        padding-left: 40px;
+    }
+  }
