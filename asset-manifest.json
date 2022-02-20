@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6dfa081f.css",
+    "main.js": "/static/js/main.b1a2c45c.js",
+    "static/media/profile.png": "/static/media/profile.f59c70b0c214e0ee74ee.png",
+    "static/media/yt-screenshot.png": "/static/media/yt-screenshot.6bdc29418a180d86cdd5.png",
+    "static/media/githubwall.svg": "/static/media/githubwall.0a67eacb30d3ed0cee3b8aece4bfee39.svg",
+    "static/media/git-header.svg": "/static/media/git-header.20077f70bc17053aed439a9fec58d1f8.svg",
+    "static/media/cbse.png": "/static/media/cbse.16bd85c725e5a78b721e.png",
+    "static/media/instagram.svg": "/static/media/instagram.62572c862d53f228aa8eff879e2e1d37.svg",
+    "static/media/maps.svg": "/static/media/maps.c3674f2685006ffef4289bef1ac24c03.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.7defd339fd92d3e5fa034b24a5f10ed6.svg",
+    "static/media/education.svg": "/static/media/education.6187541447a270f0a0e804448f9e17c1.svg",
+    "static/media/experience.svg": "/static/media/experience.95f0370683b171acce781db7774c5a7e.svg",
+    "static/media/youtube.svg": "/static/media/youtube.90082b80130d913feaf237a2cddfec80.svg",
+    "static/media/certificates.svg": "/static/media/certificates.becdc562bd98f498b94699b6f45601d8.svg",
+    "static/media/twitter.svg": "/static/media/twitter.be65a9ba5c893327f6f7c1b9a5068e0b.svg",
+    "static/media/gmail.svg": "/static/media/gmail.021e31363f948f4157ff2324baaf9f19.svg",
+    "static/media/home.svg": "/static/media/home.a23dc13e2216cdc245229da2ecf7f595.svg",
+    "static/media/edit.svg": "/static/media/edit.049494b73c0683d6487a05ca49351a94.svg",
+    "index.html": "/index.html",
+    "static/media/tick.svg": "/static/media/tick.0e7cc8a793bdc70ed9fa357a007275e5.svg",
+    "main.6dfa081f.css.map": "/static/css/main.6dfa081f.css.map",
+    "main.b1a2c45c.js.map": "/static/js/main.b1a2c45c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dfa081f.css",
+    "static/js/main.b1a2c45c.js"
+  ]
+}
