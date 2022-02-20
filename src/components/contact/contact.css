@@ -150,6 +150,11 @@
     text-align: center;
 }
 
+.instagram-meta-text > p{
+    font-size: medium;
+    font-weight: bold;
+}
+
 .social-links{
     border-radius: 10px;
     background-color: white;
