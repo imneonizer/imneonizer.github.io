@@ -179,6 +179,11 @@
     transform: translateY(1px);
 }
 
+.my-checkbox:checked{
+    background: red;
+    color: white;
+}
+
 /* settings for small screens */
 @media screen and (min-width: 0px) and (max-width: 700px) {
     .profile-top > img{

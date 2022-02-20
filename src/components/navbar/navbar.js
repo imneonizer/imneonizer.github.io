@@ -19,10 +19,25 @@ const NavBar = (props) => {
       </div>
 
       <div className="navbar-right">
-        <img width="27px" className={props.name === 'home' ? 'navbar-button-active': 'navbar-button-inactive'} src={homeIcon} onClick={() => history('/')} />
-        <img width="27px" className={props.name === 'experience' ? 'navbar-button-active': 'navbar-button-inactive'} src={experienceIcon} onClick={() => history('/experience')} />
-        <img width="27px" className={props.name === 'certificates' ? 'navbar-button-active': 'navbar-button-inactive'} src={certificateIcon} onClick={() => history('/certificates')} />
-        <img width="27px" className={props.name === 'education' ? 'navbar-button-active': 'navbar-button-inactive'} src={educationIcon} onClick={() => history('/education')} />
+        <div className="navbar-icon">
+          <img width="27px" className={props.name === 'home' ? 'navbar-button-active': 'navbar-button-inactive'} src={homeIcon} onClick={() => history('/')} />
+          {props.name === 'home' && <div className="navbar-icon-active-indicator" />}
+        </div>
+        
+        <div className="navbar-icon">
+          <img width="27px" className={props.name === 'experience' ? 'navbar-button-active': 'navbar-button-inactive'} src={experienceIcon} onClick={() => history('/experience')} />
+          {props.name === 'experience' && <div className="navbar-icon-active-indicator" />}
+        </div>
+
+        <div className="navbar-icon">
+          <img width="27px" className={props.name === 'certificates' ? 'navbar-button-active': 'navbar-button-inactive'} src={certificateIcon} onClick={() => history('/certificates')} />
+          {props.name === 'certificates' && <div className="navbar-icon-active-indicator" />}
+        </div>
+
+        <div className="navbar-icon">
+          <img width="27px" className={props.name === 'education' ? 'navbar-button-active': 'navbar-button-inactive'} src={educationIcon} onClick={() => history('/education')} />
+          {props.name === 'education' && <div className="navbar-icon-active-indicator" />}
+        </div>
       </div>
     </div>
   );
