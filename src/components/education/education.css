@@ -1,0 +1,36 @@
+.education{
+    margin-left: -.3em;
+}
+
+.education-container{
+    padding-top: 1em;
+}
+
+.education-logo{
+    border-radius: 10%;
+}
+
+.education-title{
+    margin-left: 1.5em;
+    color: #092C4C;
+}
+
+.education-title > p{
+    font-size: small;
+    color: #505050;
+}
+
+.education-info{
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.education-name-container{
+    display: flex;
+    align-items: center;
+}
+
+.education-container{
+    background-color: #F7F7F7;
+    border-radius: 10px;
+}

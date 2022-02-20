@@ -1,0 +1,222 @@
+.contact-container{
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    padding-top: .01em;
+}
+
+.profile-margin{
+    margin: 1em;
+}
+
+.profile-top-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    border-radius: 10px;
+    height: 2.8em;
+}
+
+.verify-tick{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 10px solid #DDFFE7;
+    background-color: #00D63C;
+    border-radius: 100%;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 1em;
+}
+
+.year-of-experience{
+    background-color: #FFEFD4;
+    color: #F9A821;
+    border-radius: 30px;
+    width: 6em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    align-items: center;
+}
+
+.year-of-experience > p{
+    text-align: center;
+}
+
+.profile-name-username{
+    margin-left: 1em;
+}
+
+.profile-name-username > h4{
+    color: #092C4C;
+    padding-bottom: .2em;
+}
+
+.profile-name-username > p{
+    color: #656565;
+}
+
+.profile-top{
+    display: flex;
+    align-items: center;
+}
+
+.profile-top > img{
+    border-radius: 100%;
+    margin-left: 1em;
+}
+
+.profile-username-container > p{
+    margin-right: 10px;
+}
+
+.profile-quote-wrapper{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-quote{
+    background-color: #FFBE00;
+    border-radius: 20px;;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding: 1.5em;
+    word-wrap: break-word;
+}
+
+.profile-quote > img{
+    width: 100px;
+}
+
+.profile-quote > p {
+    margin-left: 1em;
+    color: #353535;
+}
+.youtube-channel{
+    border-radius: 10px;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    padding: 1.5em;
+    padding-top: 1em;
+    margin-left: 1em;
+}
+
+.social-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.profile-links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+
+.plink-name{
+    margin-left: 1em;
+}
+
+.plink-name > h4, .instagram-meta-text > h4{
+    color: #092C4C;
+}
+
+.plink-name > p, .instagram-meta-text > p{
+    font-size: small;
+    color: #A4A1A1;
+}
+
+.instagram-account{
+    border-radius: 10px;
+    background-color: white;
+    width: 25%;
+    padding: 1.5em;
+    padding-bottom: 1.5em;
+    margin-left: 0em;
+}
+
+.instagram-meta-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5em;
+}
+
+.instagram-meta-text{
+    text-align: center;
+}
+
+.social-links{
+    border-radius: 10px;
+    background-color: white;
+    width: 75%;
+    margin-left: 1em;
+    padding: 1.5em;
+    padding-bottom: .5em;
+}
+
+.social-links-wrapper{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    margin-bottom: 1.2em;
+}
+
+.social-links-wrapper > p{
+    margin-left: 1em;
+    color: #767676;
+}
+
+.link-copy-icon{
+    margin-left: 1rem;
+}
+
+.link-copy-icon:active{
+    transform: translateY(1px);
+}
+
+/* settings for small screens */
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .profile-top > img{
+        margin-left: 0em;
+    }
+
+    .year-of-experience{
+        display: none;
+    }
+
+    .verify-tick{
+        margin-right: 0em;
+    }
+
+    .profile-quote{
+        width: auto;
+    }
+
+    .profile-quote-wrapper, .profile-links-wrapper{
+        flex-direction: column;
+    }
+
+    .youtube-channel, .instagram-account, .social-links{
+        width: auto;
+        margin-left: 0em;
+        margin-top: 1em;
+    }
+
+    .instagram-account{
+        margin-top: 0em;;
+    }
+
+    .instagram-meta-container{
+        justify-content: flex-start;
+    }
+
+    .instagram-meta-text{
+        padding-right: 2em;
+    }
+
+}

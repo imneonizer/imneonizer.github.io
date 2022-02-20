@@ -34,6 +34,10 @@ a {
 }
 
 /* modify scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .layout-padding::-webkit-scrollbar {
   width: 20px;
 }
@@ -47,7 +51,7 @@ a {
   background-color: #ebebeb;
   border-radius: 50px;
   border: 8px solid transparent;
-  background-clip: content-box;  
+  background-clip: content-box;
 }
 
 .layout-padding::-webkit-scrollbar-thumb:hover {
@@ -73,7 +77,6 @@ a {
   transform: translateY(1px);
 }
 
-
 @media screen and (min-width: 0px) and (max-width: 700px) {
   /* small screens */
   .layout{
@@ -85,9 +88,4 @@ a {
     margin-top: 1.1em;
   }
 
-  /* hide scrollbar */
-  /* .layout-padding::-webkit-scrollbar {
-    display: none;
-  }
-   */
 }

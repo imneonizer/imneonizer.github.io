@@ -1,7 +1,70 @@
-.experience-heading{
+.experience{
+    margin-left: -.3em;
+}
+
+.page-heading{
+    color: #092C4C;
+    padding-top: .2em;
+    padding-bottom: .5em;
+}
+
+.company-name-container{
+    display: flex;
+    align-items: center;
+}
+
+.company-info{
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: .5em;
+}
+
+.company-logo{
+    border-radius: 100%;
+}
+
+.company-title{
+    margin-left: 1.5em;
     color: #092C4C;
 }
 
-.company-experience{
-    background-color: #F7F7F7;
+.company-title > p, .company-role > p, .working-date > p{
+    color: #505050;
+    padding-top: .2em;
+    font-size: small;
+}
+
+.working-date > p{
+    padding-right: .5em;
+}
+
+.company-role-list{
+    display: flex;
+    margin-top: .7em;
+}
+
+.company-role-bullet{
+    margin-left: 1.5em;
+    margin-top: .3em;
+}
+
+.bullet-circle{
+    background-color: #D9D9D9;
+    border-radius: 100%;
+    width: .7em;
+    height: .7em;
+}
+
+.bullet-line{
+    background-color: #D9D9D9;
+    width: .1em;
+    height: 100%;
+    margin-left: .3em;
+    margin-top: .3em;
+}
+
+.company-role{
+    margin-left: 3em;
+    color: #092C4C;
 }

@@ -6,7 +6,7 @@ const Projects = () => {
             title: 'MaskOut',
             description: 'Jetson based DeepStream application to identify areas of high risk through intuitive heat maps.',
             image: 'https://github.com/imneonizer/maskout/raw/main/Docs/heatmap-browser.png',
-            href: 'https://github.com/imneonizer/maskout'
+            url: 'https://github.com/imneonizer/maskout'
         },
         {
             title: 'TLT Lightning',
@@ -37,7 +37,7 @@ const Projects = () => {
     return (
         <div className="project-section-container">
             {projects.map((project, idx) => 
-                <div className="project-card" key={idx} onClick={() => openLink(project.href)} style={{cursor: 'pointer'}}>
+                <div className="project-card" key={idx} onClick={() => openLink(project.url)} style={{cursor: 'pointer'}}>
                     <img src={project.image ? project.image: 'https://via.placeholder.com/500x300'} />
                     <p className="project-title" style={{paddingTop: ".5em"}}><b>{project.title}</b></p>
                     <p className="project-description">{project.description}</p>
