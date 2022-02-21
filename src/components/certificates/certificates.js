@@ -1,6 +1,13 @@
 import NavBar from '../navbar/navbar';
 import './certificates.css';
 
+import nvidiaLogo from './icons/nvidia.png'
+import courseraLogo from './icons/coursera.png'
+import dlaiLogo from './icons/dlai.png'
+
+
+
+
 const Certificates = () => {
   const instituteLogo = 'https://via.placeholder.com/500x500';
 
@@ -8,44 +15,44 @@ const Certificates = () => {
     {
       name: 'Jetson AI Specialist',
       institute: 'Nvidia DLI',
-      logo: instituteLogo,
+      logo: nvidiaLogo,
       issued: 'Oct 2020',
     },
     {
       name: 'Getting Started with Deepstream for Video Analytics on Jetson',
       institute: 'Nvidia DLI',
-      logo: instituteLogo,
+      logo: nvidiaLogo,
       issued: 'Apr 2020',
       url: 'https://courses.nvidia.com/certificates/c0b7f6086f134b3399c336b890b8894f'
     },
     {
       name: 'Fundamentals of Accelerated Datascience with RAPIDS',
       institute: 'Nvidia DLI',
-      logo: instituteLogo,
+      logo: nvidiaLogo,
       issued: 'Dec 2019',
     },
     {
       name: 'Convolutional Neural Networks',
       institute: 'Deeplearning.ai',
-      logo: instituteLogo,
+      logo: dlaiLogo,
       issued: 'Nov 2019',
     },
     {
       name: 'Neural Networks and Deep Learning',
       institute: 'Deeplearning.ai',
-      logo: instituteLogo,
+      logo: dlaiLogo,
       issued: 'Oct 2019',
     },
     {
       name: 'Machine Learning by Stanford University',
       institute: 'Coursera',
-      logo: instituteLogo,
+      logo: courseraLogo,
       issued: 'Sep 2019',
     },
     {
       name: 'Getting Started with AI ON Jetson',
       institute: 'Nvidia DLI',
-      logo: instituteLogo,
+      logo: nvidiaLogo,
       issued: 'Aug 2019',
     },
   ]

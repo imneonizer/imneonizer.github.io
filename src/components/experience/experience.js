@@ -1,4 +1,6 @@
 import NavBar from '../navbar/navbar';
+import smartcowLogo from './icons/smartcow.png'
+import prizmaticsLogo from './icons/prizmatics.png'
 import './experience.css';
 
 const Experience = () => {
@@ -8,7 +10,7 @@ const Experience = () => {
   const companies = [
     {
       name: 'SmartCow',
-      logo: companyLogo,
+      logo: smartcowLogo,
       totalExperience: '2 Years',
       roles: [
         {
@@ -28,24 +30,17 @@ const Experience = () => {
       ]
     },
     {
-      name: 'SmartCow',
-      logo: companyLogo,
-      totalExperience: '2 Years',
+      name: 'Prizmatics',
+      logo: prizmaticsLogo,
+      totalExperience: '2 Months',
       roles: [
         {
-          title: 'AI Application Developer',
-          type: 'Full Time',
-          from: 'August 2019',
-          to: 'Present',
+          title: 'Computer Vision Intern',
+          type: 'Internship',
+          from: 'June 2019',
+          to: 'August 2019',
           location: 'Hyderabad, Telangana, India'
-        },
-        {
-          title: 'Jr. Machine Learning Engineer',
-          type: 'Full Time',
-          from: 'August 2019',
-          to: 'August 2020',
-          location: 'Hyderabad, Telangana, India'
-        }
+        } 
       ]
     }
   ]

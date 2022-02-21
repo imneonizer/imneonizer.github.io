@@ -1,6 +1,8 @@
 import NavBar from '../navbar/navbar';
 import Contact from '../contact/contact';
 import cbseIcon from './icons/cbse.png';
+import wcuIcon from './icons/wcu.png';
+
 import './education.css';
 
 const Education = () => {
@@ -10,9 +12,9 @@ const Education = () => {
   const education = [
     {
       course: 'B.Tech Computer Science',
-      institute: 'YBN University',
+      institute: 'William Carey University',
       info: '2018 - 2022',
-      logo: instituteLogo
+      logo: wcuIcon
     },
     {
       course: 'XII (Senior Secondary) Science',

@@ -17,9 +17,9 @@ const Contact = () => {
         githubUsername: 'imneonizer',
         experience: 2,
         youtube:{
-            username: 'UCXOsGS55a',
+            username: 'UCIk7UzLda',
             screenshot: ytScreenshot,
-            url: 'https://www.youtube.com/channel/UCXOsGS55a-T3BpV8TXWBUjQ'
+            url: 'https://www.youtube.com/channel/UCIk7UzLdaZVWOBaNZo7hgNg'
         },
         instagram: {
             username: 'the.nitin.rai',

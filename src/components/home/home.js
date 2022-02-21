@@ -17,6 +17,7 @@ import pythonIcon from './icons/python.png';
 import opencvIcon from './icons/opencv.png';
 import gitIcon from './icons/git.png';
 import reactIcon from './icons/react.png';
+import bashIcon from './icons/bash.png';
 
 
 const Home = () => {
@@ -111,6 +112,7 @@ const Home = () => {
               <img src={jsIcon} width="40px"/>
               <img src={gitIcon} width="40px"/>
               <img src={reactIcon} width="40px"/>
+              <img src={bashIcon} width="40px"/>
             </div>
           </div>
         </div>

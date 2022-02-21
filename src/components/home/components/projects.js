@@ -1,33 +1,43 @@
 import './projects.css'
+import tltLightning from './icons/tlt-lightning.png';
+import alpr from './icons/alpr.png';
+import yandexCrawler from './icons/yandex-crawler.png';
+import autolycus from './icons/autolycus.png';
+import kittiAugmentor from './icons/kitti-augmentor.png';
+import maskout from './icons/maskout.png';
 
 const Projects = () => {
     let projects = [
         {
             title: 'MaskOut',
             description: 'Jetson based DeepStream application to identify areas of high risk through intuitive heat maps.',
-            image: 'https://github.com/imneonizer/maskout/raw/main/Docs/heatmap-browser.png',
+            image: maskout,
             url: 'https://github.com/imneonizer/maskout'
         },
         {
             title: 'TLT Lightning',
-            description: 'Nvidia Transfer Learning Toolkit based easy to use web application to train various neural networks.'
+            description: 'Nvidia Transfer Learning Toolkit based easy to use web application to train various neural networks.',
+            image: tltLightning
         },
         {
             title: 'ALPR',
-            description: 'India License Plate recognition, DeepStream SSD + SSD + CRNN, Optimized to run on Jetson Nano.'
+            description: 'India License Plate recognition, DeepStream SSD + SSD + CRNN, Optimized to run on Jetson Nano.',
+            image: alpr
         },
         {
             title: 'Autolycus',
             description: 'React JS & Flask backend progressive web application for downloading and streaming torrent files remotely.',
-            image: 'https://github.com/imneonizer/autolycus/raw/main/images/web-login.png'
+            image: autolycus
         },
         {
             title: 'Yandex Crawler',
-            description: 'Automated image scraper which can scrape and download millions of similar images quickly.'
+            description: 'Automated image scraper which can scrape and download millions of similar images quickly.',
+            image: yandexCrawler
         },
         {
             title: 'Kitti Augmentor',
-            description: 'Image augmentation library to augment object detection dataset transforming both images and bounding boxes.'
+            description: 'Image augmentation library to augment object detection dataset transforming both images and bounding boxes.',
+            image: kittiAugmentor
         }
         
     ];
