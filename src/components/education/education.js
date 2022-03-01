@@ -23,7 +23,7 @@ const Education = () => {
       logo: cbseIcon
     },
     {
-      course: 'XII (Secondary)',
+      course: 'X (Secondary)',
       institute: 'Central Board of Secondary Education',
       info: 'Year of completion 2016 - CGPA 8.8',
       logo: cbseIcon

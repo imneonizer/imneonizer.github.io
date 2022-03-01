@@ -2,6 +2,7 @@ import NavBar from '../navbar/navbar';
 import smartcowLogo from './icons/smartcow.png'
 import prizmaticsLogo from './icons/prizmatics.png'
 import './experience.css';
+import getYoe from './YoeCalculator';
 
 const Experience = () => {
 
@@ -11,7 +12,7 @@ const Experience = () => {
     {
       name: 'SmartCow',
       logo: smartcowLogo,
-      totalExperience: '2 Years',
+      totalExperience: getYoe('2019/07/05'),
       roles: [
         {
           title: 'AI Application Developer',
@@ -32,14 +33,14 @@ const Experience = () => {
     {
       name: 'Prizmatics',
       logo: prizmaticsLogo,
-      totalExperience: '2 Months',
+      totalExperience: getYoe('2019/06/01', '2019/08/01'),
       roles: [
         {
           title: 'Computer Vision Intern',
           type: 'Internship',
           from: 'June 2019',
           to: 'August 2019',
-          location: 'Hyderabad, Telangana, India'
+          location: 'Gurgaon, Haryana, India'
         } 
       ]
     }

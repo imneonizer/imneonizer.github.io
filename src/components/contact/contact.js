@@ -15,7 +15,7 @@ const Contact = () => {
     const data = {
         name: 'Nitin Rai',
         githubUsername: 'imneonizer',
-        experience: 2,
+        experience: 3,
         youtube:{
             username: 'UCIk7UzLda',
             screenshot: ytScreenshot,
